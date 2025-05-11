@@ -1,0 +1,75 @@
+
+
+{
+    "blogPosts": [
+      {
+        "id": 1,
+        "title": "5 Essential Tailoring Techniques Every Beginner Should Know",
+        "image": "../../../public/blogimages/1.jpg",
+        "publishedDate": "2023-05-15",
+        "category": "Tailoring Tips",
+        "shortContent": "Learn the fundamental techniques that will set you on the path to becoming a skilled tailor...",
+        "content": "Full content here..."
+      },
+      {
+        "id": 2,
+        "title": "Choosing the Right Fabric for Your Custom Suit",
+        "image": "../../../public/blogimages/2.jpg",
+        "publishedDate": "2023-06-22",
+        "category": "Fabric Guide",
+        "shortContent": "Discover how to select the perfect fabric for your custom tailored suit based on season, occasion, and personal style...",
+        "content": "Full content here..."
+      },
+      {
+        "id": 3,
+        "title": "The History of Bespoke Tailoring",
+        "image": "../../../public/blogimages/3.jpg",
+        "publishedDate": "2023-07-10",
+        "category": "Tailoring History",
+        "shortContent": "Explore the rich history of bespoke tailoring and how it evolved into the art form we know today...",
+        "content": "Full content here..."
+      }
+    ],
+    "popularPosts": [
+      {
+        "id": 4,
+        "title": "How to Measure Yourself for a Perfect Fit",
+        "image": "../../../public/blogimages/4.jpg",
+        "publishedDate": "2023-04-05",
+        "category": "Measurement Guide",
+        "shortContent": "Step-by-step instructions for taking accurate body measurements for tailoring..."
+      },
+      {
+        "id": 5,
+        "title": "Seasonal Wardrobe Essentials for Men",
+        "image": "../../../public/blogimages/5.jpg",
+        "publishedDate": "2023-03-18",
+        "category": "Wardrobe Guide",
+        "shortContent": "The must-have pieces every man should have in his wardrobe for each season..."
+      }
+    ],
+    "categories": [
+      "Tailoring Tips",
+      "Fabric Guide",
+      "Measurement Guide",
+      "Wardrobe Guide",
+      "Tailoring History"
+    ],
+    "tags": [
+      "bespoke",
+      "custom",
+      "sewing",
+      "measurements",
+      "fabrics",
+      "suits",
+      "dresses",
+      "alterations"
+    ],
+    "archives": [
+      "July 2023",
+      "June 2023",
+      "May 2023",
+      "April 2023",
+      "March 2023"
+    ]
+  }

@@ -1,0 +1,116 @@
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Top section */
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    padding: 0 15px;
+}
+
+.footer-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+/* About section */
+.about p {
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Links */
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #d1fae5;
+}
+
+/* Contact */
+.contact p {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+/* Message form */
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.message-form input,
+.message-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: #2b2b2b;
+    color: white;
+}
+
+.message-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.message-form button {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.message-form button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Bottom section */
+.footer-bottom {
+    background-color: #0f0f0f;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer-section {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+.banner {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .banner-title h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .banner-title span {
+    color: #6c63ff; /* Stylish purple accent */
+  }
+  
+  .banner-text p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive */
+  @media (min-width: 768px) {
+    .banner-content {
+      flex-direction: row;
+      text-align: left;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+  
+    .banner-title {
+      flex: 1;
+      
+    }
+    .banner-text {
+      flex: 1;
+      
+    }
+  }
+  

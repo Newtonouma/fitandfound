@@ -1,0 +1,116 @@
+.pricing-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-image: url('/backgroundimages/largescreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color : white;
+    
+  }
+  
+  .pricing-section h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-section .sub-heading {
+    font-style: italic;
+    color: #61ccae; /* Tailwind's green-800 */
+    margin-bottom: 0.25rem;
+  }
+  
+  .pricing-section .description {
+    color: #abc0dd; /* Tailwind's gray-600 */
+    max-width: 36rem;
+    margin: 0 auto 2.5rem;
+  }
+  
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    
+  }
+  .purchase{
+    color: white;
+    
+  }
+  
+  @media (min-width: 640px) {
+    .pricing-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-cards {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0 3rem;
+    }
+  }
+  
+  .card {
+    border: dotted 2px white; /* Tailwind's gray-300 */
+    border-radius: 0.375rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card .price {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card .price .amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card .price .monthly {
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+  }
+  
+  .card .dots {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  .card .features {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+  }
+  
+  .card .features li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .card button {
+    margin-top: auto;
+    width: 100%;
+    padding-top: 0.75rem;
+    border-top: 1px dotted #9ca3af; /* Tailwind's gray-400 */
+    background: none;
+    border: none;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+  }
+  

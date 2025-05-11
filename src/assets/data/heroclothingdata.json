@@ -1,0 +1,34 @@
+{
+    "clothingItems": [
+      {
+        "id": 1,
+        "name": "Tailored Wool Suit",
+        "category": "Men's Formal",
+        "image": "/heroimages/1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Silk Evening Dress",
+        "category": "Women's Formal",
+        "image": "/heroimages/2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Linen Summer Shirt",
+        "category": "Men's Casual",
+        "image": "/heroimages/3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Denim Jacket",
+        "category": "Unisex Outerwear",
+        "image": "/heroimages/4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Cashmere Sweater",
+        "category": "Winter Wear",
+        "image": "/heroimages/5.jpg"
+      }
+    ]
+  }
